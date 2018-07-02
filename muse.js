@@ -268,7 +268,7 @@ client.on(`guildMemberRemove`, async member => {
 	.setDescription(`We feel that you might come back to ${member.guild.name}.`)
 
 	gbChannel.send(gbEmbed);
-return
+return;
 });
 
 });
