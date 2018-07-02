@@ -3,7 +3,8 @@ const Discord = require("discord.js");
 const config = {
 	"TOKEN": process.env.TOKEN,
 	"GOOGLE_API_KEY": process.env.GOOGLE_API_KEY,
-	"DBL_API": process.env.DBL_API
+	"DBL_API": process.env.DBL_API,
+	"PREFIX": "m!"
 }
 const { TOKEN, GOOGLE_API_KEY, DBL_API } = config;
 //const config = require("./config.json");
